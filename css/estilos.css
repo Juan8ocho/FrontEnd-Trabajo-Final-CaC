@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Macondo&display=swap');
+
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    background-color: #353434;
+    align-items: center;
+
+
+}
+
+.logimg{
+    display: flex;
+    align-items: center;
+}
+.logo{
+    display: flex;
+}
+
+.contaier{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+.words{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.formulario{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer{
+   background-color: #1e4d67;
+   height: 50%;
+   color: white;
+   padding: 20px;
+    
+}
+
+.letras{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly
+}
