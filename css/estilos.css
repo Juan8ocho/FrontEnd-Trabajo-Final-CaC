@@ -50,5 +50,27 @@ footer{
 .letras{
     display: flex;
     align-items: center;
-    justify-content: space-evenly
+    justify-content: space-evenly;
+}
+
+@media (max-width: 576px) {
+    .logimg {
+      display: none;
+    }
+  
+  }
+  
+@media (max-width:576px){
+    .card-img-overlay{
+       width: fit-content;
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+       justify-content:center;
+      
+       
+    }
+    .card-text{
+        font-size: small;
+    }
 }
