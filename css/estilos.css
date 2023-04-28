@@ -18,6 +18,9 @@ nav{
     display: flex;
 }
 
+.card-img{
+    opacity: 0.48;
+}
 .contaier{
     display: flex;
     align-items: center;
