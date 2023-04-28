@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Macondo&display=swap');
 
-
 nav{
     display: flex;
     justify-content: space-around;
@@ -62,10 +61,10 @@ footer{
   
 @media (max-width:576px){
     .card-img-overlay{
-       width: fit-content;
+       width: 100%;
        display: flex;
        flex-direction: column;
-       align-items: center;
+       align-items:end ;
        justify-content:center;
       
        
@@ -73,4 +72,31 @@ footer{
     .card-text{
         font-size: small;
     }
+}
+
+@media (min-width:576px){
+    .card-img-overlay{
+       padding-top: 330px;
+       padding-right: 170px;
+      
+      
+       
+    }}
+
+@media (max-width:576px){
+    .letras{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        
+    
+        
+    }
+}
+
+@media (max-width:576px){
+body{
+    margin-left: 5px;
+    margin-right: 0px;
+ }
 }
