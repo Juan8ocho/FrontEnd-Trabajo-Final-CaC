@@ -13,7 +13,7 @@ nav{
 }
 
 
-.card-img{
+#card-img{
     opacity: 0.48;
     
 }
@@ -69,12 +69,19 @@ footer{
 
 @media (min-width:576px){
     .card-img-overlay{
-       padding-top: 330px;
+       padding-top: 400px;
        padding-right: 170px;
       
       
-       
     }}
+
+@media (max-width:576px){
+        .card-img{
+           height: 400px;
+           width: auto;
+          
+          
+}}
 
 @media (max-width:576px){
     .letras{
