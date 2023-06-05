@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" 
+    integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/estilos.css">
+    <title>Integrador Javascript</title>
+</head>
+<body class="bg-white">
+    <header></header>
+    
+    <main>
+      <div class="card-group m-4 gap-3">
+            
+            
+        <div class="btn card border border-2 border-primary bd-transparant text-black" data-index="0">
+          <div class="card-body">
+            <h5 class="card-title">ESTUDIANTE</h5>
+            <p class="card-text">Tienen un descuento</p>
+            <p class="card-text">80%</p>
+            <p class="card-text"><small>* presentar documentacion</small></p>
+          </div>
+        </div>
+       
+       
+        <div class="btn card border border-2 border-success bd-transparant text-black" data-index="1">
+          <div class="card-body">
+            <h5 class="card-title">TRAINEE</h5>
+            <p class="card-text">Tienen un descuento</p>
+            <p class="card-text">50%</p>
+            <p class="card-text"><small>* presentar documentacion</small></p>
+          </div>
+        </div>
+        
+        
+        <div class="btn card border border-2 border-danger bd-transparant text-black" data-index="2">
+          <div class="card-body">
+            <h5 class="card-title">JUNIOR</h5>
+            <p class="card-text">Tienen un descuento</p>
+            <p class="card-text">15%</p>
+            <p class="card-text"><small>* presentar documentacion</small></p>
+          </div>
+        </div>
+
+      </div>
+
+
+          <div class="words mt-3">
+            <p>VENTA</p>
+            <H1>VALOR DE TICKET $200</H1>
+          </div>
+        
+         
+           <form id="formone" name="formulario">
+            <div class="row col-12 center" > 
+            <div class="col-md-6">
+              <input name="firstname"  type="text" class="form-control" placeholder="Nombre">
+             </div>
+             <div class="col-md-6">
+               <input name="lastname"  type="text" class="form-control" placeholder="Apellido">
+             </div>
+            
+             <div class="col-12 center">
+               <input name="email"  type="email" class="form-control" placeholder="Correo" >
+            </div>
+             
+            <div class="col-md-6">
+              <label for="tickets">Cantidad</label>
+              <input name="tickets" id="tickets" type="number" class="form-control" placeholder="Entradas">
+            </div>
+            <div class="col-6">
+              <label for="category">Categoria</label>
+              <select name="category" id="category" class="form-select" aria-label="Default select">
+                  <option selected="" value="none">Seleccione algo</option>
+                  <option value="a">Categoria A</option>
+                  <option value="b">Categoria B</option>
+                  <option value="c">Categoria C</option>
+              </select>
+          </div>
+            
+            <div id="total" class="bg-primary bg-opacity-25 rounded-1 p-2 my-4"></div>
+            
+            <div class="row">
+              <div class="col-6">
+              <button id="reset" class="btn text-light mb-3 w-100" style="background-color: #96c93e;">Borrar</button>
+              </div> 
+               
+              <div  class="col-6">
+              <button id="submit" class="btn text-light mb-3 w-100" style="background-color: #96c93e;">Enviar</button>
+             </div> 
+            
+            </div>
+            </div>
+
+           
+            <div>
+
+            </div>
+           </form>
+          
+    </main>
+    
+    
+    <footer></footer>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" 
+      integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script> 
+
+    <script src="./js/form/data.js"></script> 
+    
+    <script src="./js/headerfooter.js"></script>
+    <script src="./js/cards/dom.js"></script>
+    <script src="./js/form/dom.js"></script>
+    <script src="./js/form/form.js"></script>
+
+    <script src="./js/cards/cards.js"></script>
+    <script src="./js/cards/utils.js"></script>
+    <script src="./js/cards/events.js"></script>
+   
+   
+    
+    <script src="./js/form/utils.js"></script>
+    <script src="./js/form/events.js"></script>
+    
+</body>
+</html>

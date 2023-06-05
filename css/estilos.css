@@ -1,3 +1,4 @@
+
 nav{
     display: flex;
     justify-content: space-around;
@@ -37,6 +38,14 @@ footer{
   display: block;
   padding: 20px;
   width: 100%; 
+}
+
+.card__alig--center{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    
 }
 
 
@@ -94,6 +103,5 @@ footer{
     padding-left: 210px;
   }
  }
-
 
 
